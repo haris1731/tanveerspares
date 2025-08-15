@@ -239,9 +239,41 @@ footer {
 .hero {
   transition: opacity 0.5s ease-in-out;
 }
+/* Hamburger icon hidden on desktop */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Mobile nav styles */
+@media (max-width: 768px) {
+  nav ul {
+    display: none; /* hidden by default */
+    flex-direction: column;
+    background-color: #003366;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 1000;
+  }
+
+  nav ul.show {
+    display: flex; /* show when toggled */
+  }
+
+  .menu-toggle {
+    display: block; /* show hamburger on mobile */
+  }
+}
 
 /* Specific icon colors for hover */
 .whatsapp:hover { background: #25D366; }
 .linkedin:hover { background: #0077B5; }
 .gmail:hover { background: #EA4335; }
+
 
