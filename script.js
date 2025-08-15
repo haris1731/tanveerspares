@@ -24,4 +24,12 @@ function changeBackground() {
 
 changeBackground(); // Initial
 setInterval(changeBackground, 4000);
+// Mobile menu toggle
+const menuToggle = document.getElementById('menu-toggle');
+const navMenu = document.querySelector('nav ul');
+
+menuToggle.addEventListener('click', () => {
+  navMenu.classList.toggle('show');
+});
+
 
