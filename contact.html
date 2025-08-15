@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - AquaSpare</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #009ffd, #2a2a72);
+      color: white;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    .contact-container {
+      padding: 50px 20px;
+      animation: fadeInUp 1.5s ease-out;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .contact-info {
+      margin-top: 20px;
+    }
+    .contact-item {
+      background: rgba(255,255,255,0.1);
+      padding: 15px;
+      margin: 15px auto;
+      border-radius: 10px;
+      width: 300px;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+    .contact-item:hover {
+      transform: scale(1.05);
+      background: rgba(255,255,255,0.2);
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-container">
+    <h1>Get in Touch</h1>
+    <p>Feel free to connect with me via these platforms</p>
+
+    <div class="contact-info">
+      <div class="contact-item">
+        📧 Email: <a href="mailto:ahmedtanveer994@yahoo.com">ahmedtanveer994@yahoo.com</a>
+      </div>
+      <div class="contact-item">
+        📱 WhatsApp: <a href="https://wa.me/919811391930" target="_blank">+91 9811391930</a>
+      </div>
+      <div class="contact-item">
+        💼 LinkedIn: <a href="https://www.linkedin.com/in/tanveer-ahmed-750599189/
+" target="_blank">View Profile</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
