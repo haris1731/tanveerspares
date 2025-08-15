@@ -191,3 +191,41 @@ footer {
     width: 100%;
   }
 }
+.chat-icons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 999;
+}
+
+.chat-icon {
+  background: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.chat-icon img {
+  width: 28px;
+  height: 28px;
+}
+
+.chat-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Specific icon colors for hover */
+.whatsapp:hover { background: #25D366; }
+.linkedin:hover { background: #0077B5; }
+.gmail:hover { background: #EA4335; }
+
+
