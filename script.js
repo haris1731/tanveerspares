@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
   const hero = document.querySelector('.hero');
   const images = [
-    'assests/ship1.jpg',
-    'assests/ship2.jpg',
-    'assests/ship3.jpg',
-    'assests/ship4.jpg'
+    'ship1.jpg',
+    'ship2.jpg',
+    'ship3.jpg',
+    'ship4.jpg'
   ];
   let current = 0;
 
@@ -16,3 +16,4 @@ document.addEventListener('DOMContentLoaded', function () {
   changeBackground(); // Initial background
   setInterval(changeBackground, 4000); // Change every 4 seconds
 });
+
