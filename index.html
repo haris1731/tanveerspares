@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ship Parts Inventory</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1><a href="#home">AquaSpare</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="contact.html" target="_blank">Contact</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-text">
+      <h2>Your Trusted Source for Ship Spare Parts</h2>
+      <p><b>Refurbished and reliable ship parts for every need.</b></p>
+      <a href="#products" class="btn">Explore Products</a>
+    </div>
+  </section>
+
+  <!-- Search -->
+  <div class="search-container">
+    <input type="text" id="searchBar" placeholder="Search for products..." />
+    <button id="searchButton">Search</button>
+  </div>
+
+  <!-- Products -->
+  <section id="products" class="products">
+    <div class="container">
+      <h2>Our Products</h2>
+      <div class="product-list" id="productList">
+        <div class="product-item" data-name="engine spare parts">
+          <img src="images.jpg" alt="Engine Parts" />
+          <h3>Engine Spare Parts</h3>
+          <p>High-quality refurbished engine parts.</p>
+        </div>
+        <div class="product-item" data-name="navigation equipment">
+          <img src="nav.jpg" alt="Navigation" />
+          <h3>Navigation Equipment</h3>
+          <p>Reliable navigation systems for ships.</p>
+        </div>
+        <div class="product-item" data-name="electrical systems">
+          <img src="electric.jpg" alt="Electrical" />
+          <h3>Electrical Systems</h3>
+          <p>Top-notch refurbished electrical components.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+     <form id="contact-form">
+    <input type="text" name="from_name" placeholder="Your Name" required />
+    <input type="email" name="reply_to" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+</form>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 AquaSpare. All rights reserved.</p>
+    </div>
+    <!-- Floating Chat Icons -->
+<div class="chat-icons">
+  <!-- WhatsApp -->
+  <a href="https://wa.me/919811391930" target="_blank" class="chat-icon whatsapp" title="Chat on WhatsApp">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/tanveer-ahmed-750599189/" target="_blank" class="chat-icon linkedin" title="Connect on LinkedIn">
+    <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn">
+  </a>
+
+  <!-- Gmail -->
+  <a href="mailto:ahmedtanveer994@yahoo.com" target="_blank" class="chat-icon gmail" title="Send us an Email">
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail">
+  </a>
+</div>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
